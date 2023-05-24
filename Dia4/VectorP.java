@@ -6,6 +6,7 @@ class Paralelo {
     static int[] num2;
 
     public static void main(String[] args) {
+        leer=new Scanner(System.in);
         int cant;
         System.out.println("ingresa la cantidad de filas y columnas");
         cant = leer.nextInt();
@@ -14,7 +15,7 @@ class Paralelo {
         for (int i = 0; i < cant; i++) {
             System.out.println("ingresa el numero de superior: "+(i+1));
             num1[i]=leer.nextInt();
-            System.out.println("ingresa el numero de superior: "+(i+1));
+            System.out.println("ingresa el numero de Inferior: "+(i+1));
             num2[i]=leer.nextInt();
         }
         int suma;
